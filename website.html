@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Navbar + Carousel + Cards</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .carousel-item img {
+      height: 600px;
+      object-fit: cover;
+      background-size: cover;
+      filter: brightness(100%);
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="avatar.svg" alt="Logo" width="50" height="50" class="d-inline-block align-text-center">
+        Error
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link disabled">Help</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="sa.jpg" class="d-block w-100" alt="Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/1022/1200/400" class="d-block w-100" alt="Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/1039/1200/400" class="d-block w-100" alt="Image 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+  <div class="container my-5">
+    <div class="row g-4"> 
+      
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1050/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card One</h5>
+            <p class="card-text">Some quick example text.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1051/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card Two</h5>
+            <p class="card-text">Another example text.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1052/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card Three</h5>
+            <p class="card-text">More sample text here.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1053/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card Four</h5>
+            <p class="card-text">Final card example.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+   <div class="container my-5">
+    <div class="row g-4">
+      
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1050/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card One</h5>
+            <p class="card-text">Some quick example text.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1051/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card Two</h5>
+            <p class="card-text">Another example text.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1052/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card Three</h5>
+            <p class="card-text">More sample text here.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1053/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card Four</h5>
+            <p class="card-text">Final card example.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+   <div class="container my-5">
+    <div class="row g-4"> 
+      
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1050/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card One</h5>
+            <p class="card-text">Some quick example text.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1051/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card Two</h5>
+            <p class="card-text">Another example text.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1052/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card Three</h5>
+            <p class="card-text">More sample text here.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1053/400/250" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card Four</h5>
+            <p class="card-text">Final card example.</p>
+            <a href="#" class="btn btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+<div class="container my-5 absolute-bottom">
+  <h1 class="mb-4 text-center">Contact</h1>
+  <form class="mx-auto" style="max-width: 500px;">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Submit</button>
+  </form>
+</div>
+
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <p class="mb-0">© 2025 Your Website | All Rights Reserved</p>
+</footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
